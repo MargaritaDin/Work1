@@ -5,7 +5,7 @@ namespace ConsoleAppWithDb.Repository
 {
     public class ApplicationContext : DbContext
     {
-        public ApplicationContext() : base("ApplicationContext")
+        public ApplicationContext() : base("DBConnection")
         {
         }
 
